@@ -422,6 +422,7 @@ body {
   border-radius: 14px;
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.3);
+  z-index: 999;
 }
 .package-card:hover {
   border-radius: 14px;
@@ -429,7 +430,7 @@ body {
   background: #fff;
   box-shadow: 0px 10px 70px 0px rgba(2, 2, 38, 0.1);
 }
-.package-card img {
+.package-card-image img {
   border-radius: 14px;
 }
 .package-card h3 {
@@ -890,9 +891,7 @@ body {
   .package{
     grid-template-columns: repeat(2, 1fr);
   }
-  .package-card {
-    z-index: 999;
-  }
+  
   .promotion .section-text {
     padding: 0;
   }

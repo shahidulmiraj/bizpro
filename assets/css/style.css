@@ -827,8 +827,9 @@ body {
   .footer {
     flex-wrap: wrap;
     row-gap: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
+    column-gap: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .footer .footer-header {
     width: 100%;
@@ -845,8 +846,12 @@ body {
     gap: 20px;
     align-items: center;
   }
+  .newsletter-content form {
+    flex-direction: column;
+  }
 }
-
+/* ---------------------------------------- */
+/* tablet responsive  */
 @media screen and (min-width:601px) and (max-width:900px) {
   .banner {
     padding: 20px 10px;
